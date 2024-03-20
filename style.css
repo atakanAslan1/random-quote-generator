@@ -1,0 +1,138 @@
+/* CSS Reset */
+
+/* Box sizing */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Remove default margin and padding */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+
+/* Remove list styles */
+ol,
+ul {
+    list-style: none;
+}
+
+/* Remove default hyperlink styles */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Remove default button styles */
+button {
+    border: none;
+    background: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+/* Set default font family and size */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+/* Reset form elements */
+input,
+textarea,
+select,
+button {
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: none;
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+}
+
+
+
+
+.container {
+    width: 70%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 200px auto auto auto;
+    
+    border-radius: 1rem;
+    position: relative;
+    background: hsla(42, 93%, 57%, 1);
+
+    background: linear-gradient(135deg, hsla(42, 93%, 57%, 1) 0%, hsla(358, 78%, 62%, 1) 100%);
+
+    background: -moz-linear-gradient(135deg, hsla(42, 93%, 57%, 1) 0%, hsla(358, 78%, 62%, 1) 100%);
+
+    background: -webkit-linear-gradient(135deg, hsla(42, 93%, 57%, 1) 0%, hsla(358, 78%, 62%, 1) 100%);
+
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F7BA2C", endColorstr="#EA5459", GradientType=1 );
+}
+
+.quote-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h1 {
+    margin-top: 1rem;
+}
+#btn {
+    padding: .5rem;
+    background-color: rgb(0, 0, 0);
+    border-radius: .7rem;
+    color: white;
+    transition: 200ms ;
+    margin-bottom: 10px;
+
+
+}
+
+#btn:hover {
+    background-color: rgb(0, 0, 0, 0.8);
+    color: rgb(224, 222, 222);
+}
+
+p {
+    text-align: center;
+    padding: 0 1rem 0 1rem;
+    font-size: 1.5rem;
+    color: white;
+}
+
+span {
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
